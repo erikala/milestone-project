@@ -1,0 +1,244 @@
+/*****BASE STYLES*****/
+
+@font-face {
+  font-family: 'Quickbrush';
+  src: url('webfonts/3898CA_0_0.eot');
+  src: url('webfonts/3898CA_0_0.eot?#iefix')
+  format('embedded-opentype')
+  url('webfonts/3898CA_0_0.woff2')
+  format('woff2'),url('webfonts/3898CA_0_0.woff')
+  format('woff'),url('webfonts/3898CA_0_0.ttf')
+  format('truetype');}
+
+
+body {
+  font-family: skolar-latin, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+
+/*****GRID*****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.half-width {
+  width: 600px;
+  float: left;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.third-width{
+  width: 400px;
+  float: left;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+/*****HEADER*****/
+
+#home-page {
+  height: 800px;
+  background: url('../img/pink-flower.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top: -30px;
+}
+
+
+header h1 {
+  padding: 65px 0 20px 25px;
+  font-size: 45px;
+}
+
+
+header h2 {
+  font-size: 27px;
+  line-height: 35px;
+}
+
+
+header h3 {
+  font-family: Quickbrush;
+	font-weight: 700;
+	font-style: normal;
+  text-align: left;
+  text-indent: 270px;
+  font-size: 40px;
+  padding: 140px 0px 0px 0px;
+  color: #ee4cc3;
+}
+
+
+header a {
+  font-family: Quickbrush;
+  font-weight: 800;
+  font-size: 48px;
+  font-style: normal;
+  text-decoration: none;
+  color: #b7065c;
+}
+
+
+/*****PORTFOLIO SECTION*****/
+
+
+#work {
+  height: 1020px;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+
+#work p {
+  padding-left: 20px;
+  padding-right: 100px;
+  text-align: justify;
+}
+
+
+#work h3 {
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+
+#work h2 {
+  font-family: Quickbrush;
+  font-size: 33px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+#work span {
+  font-size: 27px;
+}
+
+
+/*****ABOUT ME*****/
+
+
+#about {
+  height: 450px;
+  background: url('../img/pink-yellow-background.jpg');
+  background-size: cover;
+  padding-left: 50px;
+  padding-right: 100px;
+  margin: 0 auto;
+}
+
+
+#about p {
+  padding-left: 20px;
+  line-height: 25px;
+  padding-right: 80px;
+  text-align: justify;
+}
+
+
+#about h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: Quickbrush;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+#about h3{
+  padding-left: 20px;
+  line-height: 10px;
+}
+
+
+/*****CONTACT*****/
+
+
+footer {
+  background-color: #fff7e7;
+  margin: 0 auto;
+}
+
+
+#contact{
+  height: 290px;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+
+#contact a {
+    text-decoration: solid;
+    color: #b7065c;
+    font-weight: bold;
+    font-size:20px;
+}
+
+
+#contact ul {
+    list-style: none;
+}
+
+
+#contact ul li {
+     display: inline-block;
+}
+
+
+#contact ul span {
+    font-size: 30px;
+    padding-left: 60px;
+    padding-top: 5px;
+}
+
+
+#contact p {
+  text-align: center;
+  text-decoration: solid;
+  color: #b7065c;
+}
+
+
+#contact h2 {
+  font-family: Quickbrush;
+  font-size: 33px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  line-height: 10px;
+  padding-top: 30px;
+}
+
+
+#contact h3 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+/*****IMAGES*****/
+
+
+#jubilee, #rogue, #holstee {
+  width: 425px;
+  height: 255px;
+  border: 2px solid #b2b2b2;
+}
+
+
+#my-picture {
+  width: 398px;
+  height: 318px;
+  padding-left: 50px;
+}
